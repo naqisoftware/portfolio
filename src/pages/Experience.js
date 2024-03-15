@@ -1,8 +1,8 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import SchoolIcon from '@material-ui/icons/School';
-import WorkIcon from '@material-ui/icons/Work';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGraduationCap, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Experience.css';
 
 
@@ -16,7 +16,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2014 - 2017"
           iconStyle={{background: "#433f50", color: "#fff"}}
-          icon={<SchoolIcon />}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
             <h3 className='vertical-timeline-element-title'>
               Notre Dame Catholic Sixth-Form College
@@ -34,7 +34,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2018 - 2023"
           iconStyle={{background: "#433f50", color: "#fff"}}
-          icon={<SchoolIcon />}
+          icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
             <h3 className='vertical-timeline-element-title'>
               Leeds Beckett University
@@ -50,7 +50,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="2022 - 2023"
           iconStyle={{background: "#FFD580", color: "#fff"}}
-          icon={<WorkIcon />}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className='vertical-timeline-element-title'>
               IT Career Switch
@@ -72,7 +72,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="Aug 2020 - Aug 2021"
           iconStyle={{background: "#FFD580", color: "#fff"}}
-          icon={<WorkIcon />}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className='vertical-timeline-element-title'>
               Gough&Kelly | Industrial Placement
@@ -92,7 +92,7 @@ function Experience() {
           className="vertical-timeline-element--education"
           date="May 2023 - Jan 2024"
           iconStyle={{background: "#FFD580", color: "#fff"}}
-          icon={<WorkIcon />}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className='vertical-timeline-element-title'>
               TATA IT Consultancy

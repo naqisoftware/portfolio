@@ -1,7 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ListOfProjects } from '../projects/ListOfProjects';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import '../styles/ProjectWindow.css';
 
 
@@ -23,7 +24,7 @@ function ProjectWindow() {
         {project.skills}
       </p>
       <a href="https://github.com/naqisoftware" target="_blank" rel="noopener noreferrer">
-          <GitHubIcon />
+        <FontAwesomeIcon icon={faGithub} />
       </a>
     </div>
   )

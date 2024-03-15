@@ -1,7 +1,9 @@
 import React from 'react';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import EmailIcon from '@material-ui/icons/Email';
-import GitHubIcon from '@material-ui/icons/GitHub'; // Correct the import statement for GitHubIcon
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
+
 import '../styles/Footer.css';
 
 function Footer() {
@@ -12,13 +14,13 @@ function Footer() {
     <div className='footer'>
       <div className='socialMedia'>
         <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
-            <LinkedInIcon />
+          <FontAwesomeIcon icon={faLinkedin} />
           </a>
         <a href={`mailto:${emailAddress}`}>
-          <EmailIcon />
+          <FontAwesomeIcon icon={faEnvelope} />
         </a>
         <a href="https://github.com/naqisoftware" target="_blank" rel="noopener noreferrer">
-          <GitHubIcon />
+          <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>
       <p>&copy; 2024 Naqi Ghol portfolio. All Rights Reserved. Website content and design.</p>

@@ -1,7 +1,8 @@
 import React from 'react'
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import EmailIcon from '@material-ui/icons/Email';
-import GithubIcon from '@material-ui/icons/GitHub';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 import '../styles/Home.css';
 
 //ADDED
@@ -25,13 +26,13 @@ function Home() {
           driven by a enthusiasm for mastering new technologies and crafting innovative solutions
           </p>
           <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
-            <LinkedInIcon />
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
           <a href={`mailto:${emailAddress}`}>
-            <EmailIcon />
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
           <a href="https://github.com/naqisoftware" target="_blank" rel="noopener noreferrer">
-            <GithubIcon />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
       </div>
