@@ -7,7 +7,7 @@ export const ListOfProjects = [
         name: "Flood Monitoring Application",
         image: Projectone,
         skills: "Javacript, React, HTML, CSS",
-        website: 'https://anime-kdrama.netlify.app',
+        website: 'https://flood-monitoring.netlify.app/',
     },
     {
         name: "Anime/Kdrama Application ",

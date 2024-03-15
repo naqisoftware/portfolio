@@ -17,7 +17,7 @@ function ProjectWindow() {
       <img alt='some imge' src={project.image} />
       
       
-      <h2 class="website"><a href={project.website} target="_blank" rel="noreferrer">Flood Monitoring</a></h2>
+      <h2 class="website"><a href={project.website} target="_blank" rel="noreferrer">Link To Application</a></h2>
       
 
       <p>
