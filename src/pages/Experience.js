@@ -45,6 +45,27 @@ function Experience() {
             </ul>
         </VerticalTimelineElement>
 
+        {/* Industrial placement */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Aug 2020 - Aug 2021"
+          iconStyle={{background: "#FFD580", color: "#fff"}}
+          icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className='vertical-timeline-element-title'>
+              Gough&Kelly | Industrial Placement
+            </h3>
+            <p><b>IT Technician Support</b></p>
+            <ul>
+              <li><em>Provide technical assistance and support for incoming queries and issues related to computer systems, software, and hardware</em></li>
+              <li><em>Responding to queries either in person, phone, ticketing system or through email</em></li>
+              <li><em>Diagnose and resolve technical issues in a timely manner</em></li>
+              <li><em>Escalate unresolved issues to the appropriate IT personnel</em></li>
+              <li><em>Diagnose printers, MS OS, Office 365, Active Directory, Networking</em></li>
+            </ul>
+        </VerticalTimelineElement>
+
+
         {/* IT Career-Switch - Software Trainee */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -67,25 +88,7 @@ function Experience() {
             </ul>
         </VerticalTimelineElement>
 
-        {/* Industrial placement */}
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="Aug 2020 - Aug 2021"
-          iconStyle={{background: "#FFD580", color: "#fff"}}
-          icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className='vertical-timeline-element-title'>
-              Gough&Kelly | Industrial Placement
-            </h3>
-            <p><b>IT Technician Support</b></p>
-            <ul>
-              <li><em>Provide technical assistance and support for incoming queries and issues related to computer systems, software, and hardware</em></li>
-              <li><em>Responding to queries either in person, phone, ticketing system or through email</em></li>
-              <li><em>Diagnose and resolve technical issues in a timely manner</em></li>
-              <li><em>Escalate unresolved issues to the appropriate IT personnel</em></li>
-              <li><em>Diagnose printers, MS OS, Office 365, Active Directory, Networking</em></li>
-            </ul>
-        </VerticalTimelineElement>
+
 
         {/* TATA - IT Helpdesk Support */}
         <VerticalTimelineElement
