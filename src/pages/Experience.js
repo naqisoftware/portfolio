@@ -55,13 +55,17 @@ function Experience() {
             <h3 className='vertical-timeline-element-title'>
               Gough&Kelly | Industrial Placement
             </h3>
-            <p><b>IT Technician Support</b></p>
+            <p><b>IT Helpdesk Support</b></p>
             <ul>
-              <li><em>Provide technical assistance and support for incoming queries and issues related to computer systems, software, and hardware</em></li>
-              <li><em>Responding to queries either in person, phone, ticketing system or through email</em></li>
-              <li><em>Diagnose and resolve technical issues in a timely manner</em></li>
-              <li><em>Escalate unresolved issues to the appropriate IT personnel</em></li>
-              <li><em>Diagnose printers, MS OS, Office 365, Active Directory, Networking</em></li>
+              <li><em>Printets, Networking, Microsoft OS/Office 365/Exchange/Active Directory/Group Policy</em></li>
+              <li><em>Basic Linux, Networking, Firewall and security principles</em></li>
+              <li><em>Providing technical assistance and support to end-users either remotely or in person</em></li>
+              <li><em>Identifying and resolving technical issues related to hardware, software and network</em></li>
+              <li><em>Logging, tracking, and prioritising support requests using a ticketing system</em></li>
+              <li><em>Maintain records of support requests, resolutions, and troubleshooting procedures</em></li>
+              <li><em>Performing routine maintenance tasks such as software update and antivirus scans</em></li>
+              <li><em>Collaborating with IT teams and departments to resolve complex issues and improve overall system performance</em></li>
+              <li><em>Install, configure, and troubleshoot software and hardware components</em></li>
             </ul>
         </VerticalTimelineElement>
 
@@ -90,30 +94,7 @@ function Experience() {
 
 
 
-        {/* TATA - IT Helpdesk Support */}
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="May 2023 - Jan 2024"
-          iconStyle={{background: "#FFD580", color: "#fff"}}
-          icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className='vertical-timeline-element-title'>
-              TATA IT Consultancy
-            </h3>
-            <p><b>IT Helpdesk Support</b></p>
-            <ul>
-              <li><em>Providing excellent customer service and positive experience for end-users</em></li>
-              <li><em>Microsoft OS/Office 365/Exchange/Active Directory/Group Policy</em></li>
-              <li><em>Basic Linux, Networking, Firewall and security principles</em></li>
-              <li><em>Providing technical assistance and support to end-users either remotely or in person</em></li>
-              <li><em>Identifying and resolving technical issues related to hardware, software and network</em></li>
-              <li><em>Logging, tracking, and prioritising support requests using a ticketing system</em></li>
-              <li><em>Maintain records of support requests, resolutions, and troubleshooting procedures</em></li>
-              <li><em>Performing routine maintenance tasks such as software update and antivirus scans</em></li>
-              <li><em>Collaborating with IT teams and departments to resolve complex issues and improve overall system performance</em></li>
-              <li><em>Install, configure, and troubleshoot software and hardware components</em></li>
-            </ul>
-        </VerticalTimelineElement>
+
 
 
 
